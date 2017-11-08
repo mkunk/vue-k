@@ -1,15 +1,15 @@
+/*
+ * Created by GentlemanW on 2017/11/8.
+ */
 import Vue from 'vue'
-import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import footer from '../components/footer.vue'
+import vueRouter from 'vue-router'
 
-Vue.use(Router)
+Vue.use(vueRouter)
 
-export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Hello',
-      component: HelloWorld
-    }
-  ]
-})
+export default [
+  {
+    path: '/',
+    component: footer
+  }
+]

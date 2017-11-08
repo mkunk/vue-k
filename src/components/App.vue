@@ -1,17 +1,27 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div>
+    {{item1}}
+    <kfooter></kfooter>
   </div>
+
+
 </template>
 
 <script>
+import kfooter from './footer'
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      item1: '1111'
+    }
+  },
+  components: { kfooter }
 }
 </script>
 
 <style>
+@import "../style/common.css";
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,4 +30,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
