@@ -1,0 +1,43 @@
+/*
+ * Created by GentlemanW on 2017/11/9.
+ */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./icomoon.eot?nrpvl2');
+  src:  url('./icomoon.eot?nrpvl2#iefix') format('embedded-opentype'),
+  url('./icomoon.ttf?nrpvl2') format('truetype'),
+  url('./icomoon.woff?nrpvl2') format('woff'),
+  url('./icomoon.svg?nrpvl2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-contact:before {
+  content: "\e900";
+}
+.icon-discovery:before {
+  content: "\e901";
+}
+.icon-me:before {
+  content: "\e902";
+}
+.icon-wechat2:before {
+  content: "\e903";
+}
+
