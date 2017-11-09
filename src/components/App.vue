@@ -1,9 +1,6 @@
 <template>
   <div>
-    {{item1}}
-
     <kfooter></kfooter>
-
     <div>
       <router-view></router-view>
     </div>
