@@ -6,19 +6,19 @@
           <span class="ff dialog">微信</span>
         </div>
       </router-link>
-      <router-link to="/">
+      <router-link to="/contacts">
         <div class="btns btn_dialog">
           <span class="icon icon-contact"></span>
           <span class="ff contact">通讯录</span>
         </div>
       </router-link>
-      <router-link to="/">
+      <router-link to="/discovery">
         <div class="btns btn_dialog">
           <span class="icon icon-discovery"></span>
           <span class="ff discovery">发现</span>
         </div>
       </router-link>
-      <router-link to="/">
+      <router-link to="/me">
         <div class="btns btn_dialog">
           <span class="icon icon-me"></span>
           <span class="ff me">我</span>
@@ -57,6 +57,7 @@
     justify-content: flex-end;
     align-items: center;
     align-content: center;
+    height: 100%;
   }
   .btns .icon{
     font-size: 26px;

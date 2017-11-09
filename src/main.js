@@ -10,9 +10,13 @@ Vue.config.productionTip = false
 
 Vue.use(VueRouter)
 
+const router = new VueRouter({
+  routes // （缩写）相当于 routes: routes
+})
+
 /* eslint-disable no-new */
 new Vue({
-  routes,
+  router,
   template: '<App/>',
   components: {
     App
