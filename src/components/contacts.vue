@@ -1,8 +1,8 @@
-<templete>
+<template>
     <div>
       This is component CONTACTS.
     </div>
-</templete>
+</template>
 
 <script>
 export default {

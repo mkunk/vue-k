@@ -1,8 +1,8 @@
-<templete>
+<template>
     <div>
       his is component ME.
     </div>
-</templete>
+</template>
 
 <script>
   export default {

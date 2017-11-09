@@ -1,8 +1,8 @@
-<templete>
+<template>
     <div>
       his is component DISCOVERY.
     </div>
-</templete>
+</template>
 
 <script>
   export default {

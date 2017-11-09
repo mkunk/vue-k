@@ -1,8 +1,8 @@
-<templete>
+<template>
     <div>
-
+      This is component DIAOGLIST.
     </div>
-</templete>
+</template>
 
 <script>
 
