@@ -1,9 +1,9 @@
 <template>
     <div>
       <div class="header">
-        <span>{{xback}}</span>
+        <span><span class="icon icon-wechatArrowLeft"></span></span>
         <span>{{xmsg}}</span>
-        <span>{{xadd}}</span>
+        <span><span class="icon icon-wechatAdd"></span></span>
 
       </div>
     </div>

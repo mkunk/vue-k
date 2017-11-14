@@ -7,13 +7,15 @@
     </div>
   </div>
 
-
-
 </template>
 
 <script>
+import Vue from 'vue'
+import Vuex from 'vuex'
 import kheader from './header'
 import kfooter from './footer'
+import store from '../store'
+Vue.use(Vuex)
 export default {
   name: 'app',
   data () {
@@ -24,6 +26,12 @@ export default {
   components: {
     kfooter,
     kheader
+  },
+  store,
+  computed: {
+    munt () {
+      console.log(this.$store)
+    }
   }
 }
 </script>

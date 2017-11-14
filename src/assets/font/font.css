@@ -1,14 +1,10 @@
-/*
- * Created by GentlemanW on 2017/11/9.
- */
-
 @font-face {
   font-family: 'icomoon';
-  src:  url('./icomoon.eot?nrpvl2');
-  src:  url('./icomoon.eot?nrpvl2#iefix') format('embedded-opentype'),
-  url('./icomoon.ttf?nrpvl2') format('truetype'),
-  url('./icomoon.woff?nrpvl2') format('woff'),
-  url('./icomoon.svg?nrpvl2#icomoon') format('svg');
+  src:  url('./icomoon.eot?8v7fi5');
+  src:  url('./icomoon.eot?8v7fi5#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?8v7fi5') format('truetype'),
+    url('./icomoon.woff?8v7fi5') format('woff'),
+    url('./icomoon.svg?8v7fi5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,16 +24,152 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-contact:before {
+.icon-wechatDiscovery:before {
   content: "\e900";
 }
-.icon-discovery:before {
+.icon-wechatDraftBottle:before {
   content: "\e901";
 }
-.icon-me:before {
+.icon-wechatEmoji:before {
   content: "\e902";
+  color: #efb336;
 }
-.icon-wechat2:before {
+.icon-wechatJD .path1:before {
   content: "\e903";
+  color: rgb(250, 76, 76);
 }
-
+.icon-wechatJD .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-wechatMe:before {
+  content: "\e905";
+}
+.icon-wechatPeopleArround:before {
+  content: "\e906";
+}
+.icon-wechatPhotos:before {
+  content: "\e907";
+}
+.icon-wechatQrCode:before {
+  content: "\e908";
+}
+.icon-wechatScanning1:before {
+  content: "\e909";
+}
+.icon-wechatScanning2:before {
+  content: "\e90a";
+}
+.icon-wechatSettings:before {
+  content: "\e90b";
+}
+.icon-wechatShake:before {
+  content: "\e90c";
+  color: #1296db;
+}
+.icon-wechatSmallProgram:before {
+  content: "\e90d";
+}
+.icon-wechatWallet:before {
+  content: "\e90e";
+}
+.icon-wechaGame .path1:before {
+  content: "\e90f";
+  color: rgb(26, 250, 41);
+}
+.icon-wechaGame .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(18, 150, 219);
+}
+.icon-wechaGame .path3:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(225, 101, 49);
+}
+.icon-wechaGame .path4:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(239, 179, 54);
+}
+.icon-wechatAdd:before {
+  content: "\e913";
+}
+.icon-wechatAddFriebnds:before {
+  content: "\e914";
+}
+.icon-wechatArrowLeft:before {
+  content: "\e915";
+}
+.icon-wechatArrowRight:before {
+  content: "\e916";
+}
+.icon-wechatCardPackage .path1:before {
+  content: "\e917";
+  color: rgb(0, 0, 0);
+}
+.icon-wechatCardPackage .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(44, 44, 44);
+}
+.icon-wechatCircles .path1:before {
+  content: "\e919";
+  color: rgb(249, 83, 82);
+}
+.icon-wechatCircles .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(99, 103, 239);
+}
+.icon-wechatCircles .path3:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(82, 131, 239);
+}
+.icon-wechatCircles .path4:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(0, 176, 253);
+}
+.icon-wechatCircles .path5:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(102, 208, 31);
+}
+.icon-wechatCircles .path6:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(154, 209, 33);
+}
+.icon-wechatCircles .path7:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(255, 199, 22);
+}
+.icon-wechatCircles .path8:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(255, 118, 18);
+}
+.icon-wechatClection .path1:before {
+  content: "\e921";
+  color: rgb(216, 30, 6);
+}
+.icon-wechatClection .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(18, 150, 219);
+}
+.icon-wechatClection .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(239, 179, 54);
+}
+.icon-wechatContact:before {
+  content: "\e924";
+}
+.icon-wechatDialog:before {
+  content: "\e925";
+}

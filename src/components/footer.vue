@@ -2,25 +2,25 @@
     <div class="footer">
       <router-link to="/dialogList">
         <div class="btns btn_dialog">
-          <span class="icon icon-wechat2"></span>
+          <span class="icon icon-wechatDialog"></span>
           <span class="ff dialog">微信</span>
         </div>
       </router-link>
       <router-link to="/contacts">
-        <div class="btns btn_dialog">
-          <span class="icon icon-contact"></span>
+        <div class="btns btn_contacts">
+          <span class="icon icon-wechatContact"></span>
           <span class="ff contact">通讯录</span>
         </div>
       </router-link>
       <router-link to="/discovery">
         <div class="btns btn_dialog">
-          <span class="icon icon-discovery"></span>
+          <span class="icon icon-wechatDiscovery"></span>
           <span class="ff discovery">发现</span>
         </div>
       </router-link>
       <router-link to="/me">
         <div class="btns btn_dialog">
-          <span class="icon icon-me"></span>
+          <span class="icon icon-wechatMe"></span>
           <span class="ff me">我</span>
         </div>
       </router-link>
