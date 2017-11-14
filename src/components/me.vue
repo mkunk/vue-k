@@ -1,6 +1,6 @@
 <template>
     <div>
-      his is component ME.
+      This is Component ME.
     </div>
 </template>
 

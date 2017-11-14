@@ -60,9 +60,14 @@
   }
   .btns .icon{
     font-size: 26px;
+    color: inherit;
   }
   .btns .ff{
     font-size: 10px;
+    color: inherit;
+  }
+  .router-link-active .btns{
+    color: #09bb07;
   }
 
 </style>

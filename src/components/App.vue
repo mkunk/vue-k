@@ -1,5 +1,6 @@
 <template>
   <div>
+    <kheader></kheader>
     <kfooter></kfooter>
     <div>
       <router-view></router-view>
@@ -11,6 +12,7 @@
 </template>
 
 <script>
+import kheader from './header'
 import kfooter from './footer'
 export default {
   name: 'app',
@@ -19,7 +21,10 @@ export default {
       item1: '1111'
     }
   },
-  components: { kfooter }
+  components: {
+    kfooter,
+    kheader
+  }
 }
 </script>
 

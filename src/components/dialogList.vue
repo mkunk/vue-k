@@ -1,6 +1,6 @@
 <template>
     <div>
-      This is component DIAOGLIST.
+      This is Component DIAOGLIST.
     </div>
 </template>
 

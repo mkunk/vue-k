@@ -1,6 +1,6 @@
 <template>
     <div>
-      This is component CONTACTS.
+      This is Component CONTACTS.
     </div>
 </template>
 

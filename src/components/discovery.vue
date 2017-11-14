@@ -1,6 +1,6 @@
 <template>
     <div>
-      his is component DISCOVERY.
+      This is Component DISCOVERY.
     </div>
 </template>
 
