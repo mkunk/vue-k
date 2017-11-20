@@ -10,12 +10,8 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import Vuex from 'vuex'
 import kheader from './header'
 import kfooter from './footer'
-import store from '../store'
-Vue.use(Vuex)
 export default {
   name: 'app',
   data () {
@@ -27,11 +23,28 @@ export default {
     kfooter,
     kheader
   },
-  store,
   computed: {
     munt () {
       console.log(this.$store)
     }
+  },
+  beforeCreate: function () {
+    console.log('vue实例即将创建于：' + new Date().getTime())
+  },
+  created: function () {
+    console.log('vue实例已经创建于：' + new Date().getTime())
+  },
+  beforeMounte: function () {
+    console.log('vue实例.....于：' + new Date().getTime())
+  },
+  mounted: function () {
+    console.log('vue实例.....于：' + new Date().getTime())
+  },
+  beforeDestory: function () {
+    console.log('vue实例即将销毁于：' + new Date().getTime())
+  },
+  destroyed: function () {
+    console.log('vue实例销毁于：' + new Date().getTime())
   }
 }
 </script>
