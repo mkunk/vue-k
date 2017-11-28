@@ -15,16 +15,16 @@ export default [
     path: '/',
     component: footer
   }, {
-    path: '/dialogList',
+    path: '/dialogList/:itemName',
     component: dialogList
   }, {
-    path: '/contacts',
+    path: '/contacts/:itemName',
     component: contacts
   }, {
-    path: '/discovery',
+    path: '/discovery/:itemName',
     component: discovery
   }, {
-    path: '/me',
+    path: '/me/:itemName',
     component: me
   }
 ]

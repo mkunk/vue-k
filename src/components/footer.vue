@@ -1,24 +1,24 @@
 <template>
     <div class="footer">
-      <router-link to="/dialogList">
+      <router-link to="/dialogList/微信">
         <div class="btns btn_dialog">
           <span class="icon icon-wechatDialog"></span>
           <span class="ff dialog">微信</span>
         </div>
       </router-link>
-      <router-link to="/contacts">
+      <router-link to="/contacts/通讯录">
         <div class="btns btn_contacts">
           <span class="icon icon-wechatContact"></span>
           <span class="ff contact">通讯录</span>
         </div>
       </router-link>
-      <router-link to="/discovery">
+      <router-link to="/discovery/发现">
         <div class="btns btn_dialog">
           <span class="icon icon-wechatDiscovery"></span>
           <span class="ff discovery">发现</span>
         </div>
       </router-link>
-      <router-link to="/me">
+      <router-link to="/me/我">
         <div class="btns btn_dialog">
           <span class="icon icon-wechatMe"></span>
           <span class="ff me">我</span>
@@ -34,7 +34,7 @@
 </script>
 
 <style scoped>
-@import "../assets/font/font.css";
+/*@import "../assets/font/font.css";*/
 .footer{
   background-color: #fff;
   position: fixed;
@@ -57,6 +57,7 @@
     align-items: center;
     align-content: center;
     height: 100%;
+    color: #333;
   }
   .btns .icon{
     font-size: 26px;
