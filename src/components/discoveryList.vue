@@ -1,22 +1,23 @@
 <template>
-    <div class="lists">
-      <span class="listIconT icon icon-wechatCircles">
-        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span>
+  <div>
+    <div class="lists" v-for="(item,index) in dLists" :key="index">
+      <span class="listIconT icon " :class="[item.listIconT]">
+        <span class="path" v-for="n in item.listIconTs" :class="[ 'path'+ n]"></span>
       </span>
-      <span class="listInner">{{'朋友圈'}}<span class="listDotNum">{{1}}</span></span>
-      <span class="listAvatar"><img src="https://ss1.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/391c4d6b756e6b6161612830"></span>
+      <span class="listInner">{{item.listInner}}<span class="listDotNum" v-if="item.ifListDotNumShow">{{item.ListDotNum}}</span></span>
+      <span class="listAvatar" v-if="item.ifListAvatarShow"><img :src="item.ListAvatarSrc"></span>
       <span class="icon icon-wechatArrowRight"></span>
     </div>
+  </div>
 </template>
 
 <script>
     export default {
       name: 'discoveryList',
       data () {
-        return {
-          msg: '00'
-        }
+        return {}
       },
+      props: [ 'dLists' ],
       components: {},
       computed: {}
     }
@@ -32,11 +33,12 @@
     height: 40px;
     padding: 0 10px;
     /*box-shadow: 0px 0px 1px 1px rgba(244, 244, 247, 1);*/
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
   .lists .listIconT{
     font-size: 25px;
+    border: 1px solid red;
   }
   .lists .listInner{
     flex: 1;

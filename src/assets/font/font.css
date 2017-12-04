@@ -46,7 +46,7 @@
 .icon-wechatMe:before {
   content: "\e905";
 }
-.icon-wechatPeopleArround:before {
+.icon-wechatPeopleAround:before {
   content: "\e906";
 }
 .icon-wechatPhotos:before {
@@ -74,21 +74,21 @@
 .icon-wechatWallet:before {
   content: "\e90e";
 }
-.icon-wechaGame .path1:before {
+.icon-wechatGame .path1:before {
   content: "\e90f";
   color: rgb(26, 250, 41);
 }
-.icon-wechaGame .path2:before {
+.icon-wechatGame .path2:before {
   content: "\e910";
   margin-left: -1em;
   color: rgb(18, 150, 219);
 }
-.icon-wechaGame .path3:before {
+.icon-wechatGame .path3:before {
   content: "\e911";
   margin-left: -1em;
   color: rgb(225, 101, 49);
 }
-.icon-wechaGame .path4:before {
+.icon-wechatGame .path4:before {
   content: "\e912";
   margin-left: -1em;
   color: rgb(239, 179, 54);
