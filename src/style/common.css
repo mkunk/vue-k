@@ -21,9 +21,21 @@ input[type="button"], input[type="submit"], input[type="search"], input[type="re
 
 textarea { -webkit-appearance: none;}
 
+div {
+  font-size: 12px; /* 默认写上dpr为1的fontSize*/
+}
+
+[data-dpr="2"] div {
+  font-size: 24px;
+}
+
+[data-dpr="3"] div {
+  font-size: 36px;
+}
 html,body{
   height: 100%;
   width: 100%;
   background-color: #efeff4;
+  /*font-size: 60px !important;*/
 }
 

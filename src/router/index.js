@@ -12,8 +12,8 @@ import vueRouter from 'vue-router'
 Vue.use(vueRouter)
 export default [
   {
-    path: '/',
-    component: dialogList
+    path: '*',
+    redirect: '/dialogList/微信'
   }, {
     path: '/dialogList/:itemName',
     component: dialogList

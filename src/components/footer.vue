@@ -42,7 +42,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 50px;
+  height: 99px;
   display: -webkit-flex; /* Safari */
   display: flex;
   box-shadow: 0 -0.026667rem 0.053333rem rgba(0,0,0,.1);
@@ -60,11 +60,11 @@
     color: #333;
   }
   .btns .icon{
-    font-size: 26px;
+    font-size: 52px;
     color: inherit;
   }
   .btns .ff{
-    font-size: 10px;
+    font-size: 20px;
     color: inherit;
   }
   .router-link-active .btns{

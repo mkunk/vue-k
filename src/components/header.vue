@@ -26,14 +26,14 @@ export default {
   .header{
     /*position: fixed;*/
     width: 100%;
-    height: 40px;
+    height: 83px;
     display: flex;
     /*flex-direction: column;*/
     justify-content: space-between;
     align-content: center;
     background-color: #35343a;
     color: #fff;
-
+    font-size: 35px;
   }
   .header span{
     display: inline-flex;
