@@ -37,7 +37,8 @@
 /*@import "../assets/font/font.css";*/
 .footer{
   background-color: #fff;
-  position: fixed;
+  /*position: fixed;*/
+  border-top: 1px solid rgba(0,0,0,.1);
   z-index: 100;
   left: 0;
   right: 0;
@@ -45,7 +46,7 @@
   height: 99px;
   display: -webkit-flex; /* Safari */
   display: flex;
-  box-shadow: 0 -0.026667rem 0.053333rem rgba(0,0,0,.1);
+  /*box-shadow: 0 -0.026667rem 0.053333rem rgba(0,0,0,.1);*/
   justify-content: space-around;
 }
   .btns{

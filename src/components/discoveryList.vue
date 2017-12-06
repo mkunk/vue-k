@@ -119,4 +119,10 @@
     margin-bottom: 40px;
   }
   .endList{}
+
+  .icon-wechatArrowRight{
+    margin: 0 29px 0 20px;
+    font-size: 26px;
+    color: rgb(214, 214, 216);
+  }
 </style>

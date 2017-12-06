@@ -1,10 +1,11 @@
 <template>
-  <div>
+  <div id="app">
     <kheader></kheader>
-    <kfooter></kfooter>
-    <div>
+    <div class="content">
       <router-view></router-view>
     </div>
+    <kfooter></kfooter>
+
   </div>
 
 </template>
@@ -56,9 +57,21 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /*text-align: center;*/
   color: #2c3e50;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  /*position: fixed;*/
 }
+  .content{
+    /*border: 1px solid red;*/
+    flex: 1;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 
 </style>
