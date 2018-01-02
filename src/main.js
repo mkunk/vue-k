@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import routes from './router'
-import 'lib-flexible'
+import 'lib-flexible/flexible.js'
 
 import App from './components/App'
 // import router from './router'

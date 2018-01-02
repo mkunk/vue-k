@@ -83,69 +83,6 @@
           ListDotNum: 1,
           ifListAvatarShow: false,
           ListAvatarSrc: ''
-        }, {
-          listStyleClass: 'sFirstList',
-          listIconT: 'icon-wechatScanning2',
-          listIconTs: 0,
-          listInner: '扫一扫',
-          ifListDotNumShow: false,
-          ListDotNum: 1,
-          ifListAvatarShow: false,
-          ListAvatarSrc: ''
-        }, {
-          listStyleClass: 'sThirdList',
-          listIconT: 'icon-wechatShake',
-          listIconTs: 0,
-          listInner: '摇一摇',
-          ifListDotNumShow: false,
-          ListDotNum: 1,
-          ifListAvatarShow: false,
-          ListAvatarSrc: ''
-        }, {
-          listStyleClass: 'sFirstList',
-          listIconT: 'icon-wechatPeopleAround',
-          listIconTs: 0,
-          listInner: '附近的人',
-          ifListDotNumShow: false,
-          ListDotNum: 1,
-          ifListAvatarShow: false,
-          ListAvatarSrc: ''
-        }, {
-          listStyleClass: 'sThirdList',
-          listIconT: 'icon-wechatDraftBottle',
-          listIconTs: 0,
-          listInner: '漂流瓶',
-          ifListDotNumShow: false,
-          ListDotNum: 1,
-          ifListAvatarShow: false,
-          ListAvatarSrc: ''
-        }, {
-          listStyleClass: 'sFirstList',
-          listIconT: 'icon-wechatJD',
-          listIconTs: 2,
-          listInner: '购物',
-          ifListDotNumShow: false,
-          ListDotNum: 1,
-          ifListAvatarShow: false,
-          ListAvatarSrc: ''
-        }, {
-          listStyleClass: 'sThirdList',
-          listIconT: 'icon-wechatGame',
-          listIconTs: 4,
-          listInner: '游戏',
-          ifListDotNumShow: false,
-          ListDotNum: 1,
-          ifListAvatarShow: false,
-          ListAvatarSrc: ''
-        }, {
-          listStyleClass: 'endList',
-          listIconT: 'icon-wechatSmallProgram',
-          listIconTs: 0,
-          listInner: '小程序',
-          ifListDotNumShow: false,
-          ListDotNum: 1,
-          ifListAvatarShow: false,
-          ListAvatarSrc: ''
         }]
       }
     },
