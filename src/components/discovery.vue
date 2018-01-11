@@ -1,12 +1,13 @@
 <template>
-    <div>
-      <!--This is Component DISCOVERY.-->
-      <discovery-list v-bind:d-lists="lists"></discovery-list>
-    </div>
+  <div>
+    <!--This is Component DISCOVERY.-->
+    <discovery-list v-bind:d-lists="lists"></discovery-list>
+  </div>
 </template>
 
 <script>
   import discoveryList from './discoveryList.vue'
+
   export default {
     name: 'contacts',
     data () {
