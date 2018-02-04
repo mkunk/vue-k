@@ -29,7 +29,8 @@
 
 <script>
   export default {
-    name: 'kfooter'
+    name: 'kfooter',
+    methods: { }
   }
 </script>
 
